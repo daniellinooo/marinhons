@@ -1,0 +1,180 @@
+* { margin: 0; padding: 0; }
+
+/* Slide */
+.mySlides {
+display:none;
+width: 100%;
+}
+
+/* Menu */
+ul {
+  list-style-type: none;
+  margin: 0%;
+  padding: 0%;
+  overflow: hidden;
+  width: 100%;
+  top: 0;
+  margin-bottom: 0%;
+}
+
+li {
+  margin: 0%;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  font-size: 11pt;
+  padding: 14px 12px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: green;
+  color: white;
+  text-decoration: none;
+}
+
+.active {
+  background-color: green;
+}
+
+
+/* Cadastro */
+
+label {
+  font-size: 14pt;
+  font-family: calibri;
+}
+
+/* Sombra */
+
+.header {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px 20px 20px 20px;
+  width: 60%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-top: 5%;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 5%;
+}
+
+/* Formulario */
+
+input[type=submit] {
+  border-radius: 4px;
+  background-color: green;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 13pt;
+  padding: 4px;
+  width: auto;
+  margin: 5px;
+}
+
+input[type=submit]:hover {
+  background-color: #009933;
+}
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=reset] {
+  border-radius: 4px;
+  background-color: green;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 13pt;
+  padding: 4px;
+  width: auto;
+  margin: 5px;
+}
+
+input[type=reset]:hover {
+  background-color: #009933;
+}
+
+/* Botão */
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: green;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 13pt;
+  padding: 4px;
+  width: auto;
+  margin-left: 0.5%;
+}
+
+.button:hover {
+  background-color: #009933;
+}
+
+/* Campo de Pesquisa */
+input[type=email] {
+  width: 35%;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 11pt;
+  background-color: white;
+  background-image: url('https://image.flaticon.com/icons/png/512/55/55369.png');
+  background-size: 4%;
+  background-repeat: no-repeat;
+  background-position: 12px 8px;
+  padding: 8px 10px 10px 40px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+
+input[type=email]:focus {
+  width: 49%;
+}
+
+/* Campo de Texto */
+textarea {
+  width: 70%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+  margin-top: 2%;
+}
+
+.col-75 {
+  width: 70%;
+}
+
+
+/* Rodapé */
+.footer {
+  background-size: 100%;
+  margin: 0;
+  padding: 0;
+  position: sticky;
+}
+
+
+
+
+
+
+
+
+
+
+
+

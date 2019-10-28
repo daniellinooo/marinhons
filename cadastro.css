@@ -1,0 +1,170 @@
+* { margin: 0; padding: 0; }
+
+/* Slide */
+.mySlides {
+display:none;
+width: 100%;
+}
+
+/* Cadastro */
+h1 {
+  font-family: calibri;
+  font-size:2.5vw;
+  color: #404040;
+  text-align: center;
+}
+
+label {
+  font-size: 14pt;
+  font-family: calibri;
+}
+
+
+/* Sombra */
+.card {
+}
+
+.header {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px 20px 20px 20px;
+  width: 60%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-top: 5%;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 5%;
+}
+
+
+/* Campo de Seleção */
+#country {
+  
+}
+
+select {
+  width: 75%;
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  background-color: white;
+  font-size: 12pt;
+  font-family: calibri;
+  color: gray;
+  text-align: left;
+  margin-right: -120px;
+
+}
+
+/* Formulario */
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=time], select {
+  width: 17%;
+  padding: 5px 20px;
+  margin: 10px 0;
+  margin-left: 0.5%;
+  margin-right: 0.5%;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=email], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=reset] {
+  border-radius: 4px;
+  background-color: green;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 13pt;
+  padding: 4px;
+  width: auto;
+  margin: 5px;
+}
+
+input[type=reset]:hover {
+  background-color: #009933;
+}
+
+/* Botão */
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: green;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 13pt;
+  padding: 4px;
+  width: auto;
+  margin: 5px;
+}
+
+.button:hover {
+  background-color: #009933;
+}
+
+
+/* Rodapé */
+.footer {
+  background-size: 100%;
+  margin: 0;
+  padding: 0;
+  position: sticky;
+}
+
+
+/* Menu */
+ul {
+  list-style-type: none;
+  margin: 0%;
+  padding: 0%;
+  overflow: hidden;
+  width: 100%;
+  top: 0;
+  margin-bottom: 0%;
+}
+
+li {
+  margin: 0%;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  font-size: 11pt;
+  padding: 14px 12px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: green;
+  color: white;
+  text-decoration: none;
+}
+
+.active {
+  background-color: green;
+}
+
